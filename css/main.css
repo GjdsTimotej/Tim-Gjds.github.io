@@ -1,0 +1,351 @@
+/* OTHER CSS */
+
+
+@font-face {
+  src: url("fonts/FiraSans-Regular.ttf");
+  font-family: FiraSansRegular;
+}
+@font-face {
+  src: url("fonts/FiraSans-Medium.ttf");
+  font-family: FiraSansMedium;
+}
+@font-face {
+  src: url("fonts/FiraSans-Bold.ttf");
+  font-family: FiraSansBold;
+}
+
+@font-face {
+  src: url("fonts/FiraSans-Extrabold.ttf");
+  font-family: "FiraSansExtraBold";
+}
+
+
+body {
+  background-color: #E3E3E3 ;
+  position: relative;
+}
+
+
+
+
+/* BACKGROUND */
+
+
+
+@keyframes move-error-back {
+  from {background-position:0 0;}
+  to {background-position:-10000px 5000px;}
+}
+
+
+
+.code .error {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.code {
+  background: url(../img/background/code.svg) repeat top center;
+  z-index: 1;
+  animation: move-error-back 200s linear infinite;
+}
+
+.error{
+  background:url(../img/background/error.svg) repeat top center;
+  z-index: 3;
+  animation: move-error-back 200s linear infinite;
+}
+
+
+
+/* HEADER */
+
+
+
+
+
+header {
+  background-image: url("../img/main_page/big_photo.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+header .container-fluid {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+header .logo {
+  left: 0;
+  padding-top: 50%;
+  padding-bottom: 60px;
+}
+
+
+header h1 {
+  color: #FFFFFF;
+  font-size: 72px;
+  font-family: FiraSansBold, sans-serif;
+  padding-top: 100px;
+}
+
+/* who */
+
+
+
+section.who {
+  text-align: center;
+  padding-top: 150px;
+  background: url(../img/background/error.svg) repeat top center;
+  animation: move-error-back 100s linear infinite;
+  padding-bottom: 150px;
+}
+
+section.who h1 {
+  color: #900D0D;
+  font-size: 72px;
+  font-family: FiraSansBold, sans-serif;
+  margin-bottom: 50px;
+  transition: all .2s ease-in-out;
+}
+
+section.who h1:hover {
+  color: #423144;
+}
+
+section.who p {
+  color: #010000;
+  font-size: 22px;
+  font-family: FiraSansRegular, sans-serif;
+}
+
+section.who .wrap {
+  background-color: #FFFFFF;
+  border: solid 2px #423144;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+  margin: 0;
+  padding: 40px;
+
+}
+
+section.who .wrap:hover {
+  transform: scale(1.2);
+  border: solid 2px #900D0D;
+  border-top: solid 4px #423144;
+}
+
+
+/* CONTACT */
+
+section.contact {
+  background-color: #423144;
+  position: relative;
+  background-image: url("../img/logos/background.svg");
+  background-repeat: no-repeat;
+  background-position: 500px;
+}
+
+section.contact .container-fluid {
+  padding-right: 140px;
+  padding-left: 140px;
+}
+
+section.contact h1 {
+  font-size: 72px;
+  font-family: FiraSansBold, sans-serif;
+  color: #FFFFFF;
+}
+
+
+
+section.contact .text {
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+section.contact h2 {
+  font-size: 22px;
+  font-family: FiraSansRegular, sans-serif;
+  color: #900D0D;
+  padding-top: 40px;
+}
+
+
+section.contact .mails {
+  margin-right: 50px;
+}
+
+section.contact p {
+  color: #FFFFFF;
+  font-family: FiraSansRegular, sans-serif;
+  font-size: 15px;
+  transition: all .2s ease-in-out;
+}
+
+section.contact p:hover {
+  color: #0F4C75;
+}
+
+section.contact .tel {
+  position: relative;
+  display: inline-block;
+}
+
+section.contact .tel:before {
+  content: url("../img/logos/phone.svg");
+  position: absolute;
+  left: -21px;
+}
+
+section.contact .mail {
+  position: relative;
+  display: inline-block;
+}
+
+section.contact .mail:before {
+  content: url("../img/logos/mail.svg");
+  position: absolute;
+  left: -26px;
+}
+
+section.contact .facebook {
+  position: relative;
+  display: inline-block;
+}
+
+section.contact .facebook:before {
+  content: url("../img/logos/facebook.svg");
+  position: absolute;
+  left: -19px;
+}
+
+section.contact .snap {
+  position: relative;
+  display: inline-block;
+}
+
+section.contact .snap:before {
+  content: url("../img/logos/snap.svg");
+  position: absolute;
+  left: -28px;
+}
+
+
+section.contact .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 20px solid #900D0D;
+  position: absolute;
+  right: 15px;
+  top: 50px;
+}
+
+section.contact .square {
+  height: 50px;
+  width: 30px;
+  background-color: #900D0D;
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+
+section.contact .logo {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+/* MOBILE CONTACT */
+
+@media only screen and (max-width: 998px) {
+  section.contact .container-fluid {
+    padding: 0 40px 0 20px;
+  }
+  section.contact {
+    background-image: none;
+  }
+  section.contact .mails {
+    padding-right: 100px;
+  }
+}
+
+/* about */
+
+section.about h1 {
+  color: #900D0D;
+  font-size: 72px;
+  font-family: FiraSansBold, sans-serif;
+  margin-bottom: 80px;
+  transition: all .2s ease-in-out;
+}
+
+section.about h1:hover {
+  color: #423144;
+}
+
+section.about {
+  text-align: center;
+  padding-top: 140px;
+  background: url(../img/background/code.svg) repeat top center;
+  animation: move-error-back 100s linear infinite;
+  padding-bottom: 160px;
+}
+
+section.about p {
+  color: #010000;
+  font-size: 22px;
+  font-family: FiraSansRegular, sans-serif;
+}
+
+section.about .wrap {
+  background-color: #FFFFFF;
+  border: solid 2px #423144;
+  border-radius: 20px;
+  transition: all .2s ease-in-out;
+  margin: 0;
+  padding: 40px;
+
+}
+
+section.about .wrap:hover {
+  transform: scale(1.1);
+  border: solid 2px #900D0D;
+  border-top: solid 4px #423144;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #423144;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+footer .container-fluid {}
+
+footer p {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: FiraSansRegular, sans-serif;
+  position: relative;
+  margin: 0;
+}
+
+footer .mid {
+  padding-top: 100px;
+}
+
+footer .logo {
+  padding-bottom: 80px;
+}
+
+footer .heart:after {
+  content: url("../img/main_page/heart.svg");
+}

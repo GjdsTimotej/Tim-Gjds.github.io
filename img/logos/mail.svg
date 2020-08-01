@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18">
+  <g id="Group_24" data-name="Group 24" transform="translate(-1234 -1836)">
+    <g id="Group_20" data-name="Group 20" transform="translate(-23 200)">
+      <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="8" cy="7.5" rx="8" ry="7.5" transform="translate(1257 1639)" fill="#0f4c75"/>
+    </g>
+    <g id="Group_19" data-name="Group 19" transform="translate(-23 199)">
+      <g id="Group_18" data-name="Group 18" transform="translate(1935 -181)">
+        <g id="Group_21" data-name="Group 21">
+          <g id="Rectangle_15" data-name="Rectangle 15" transform="translate(-675 1818)" fill="rgba(255,255,255,0)" stroke="#900d0d" stroke-width="1">
+            <rect width="20" height="17" stroke="none"/>
+            <rect x="0.5" y="0.5" width="19" height="16" fill="none"/>
+          </g>
+        </g>
+        <g id="Path_5" data-name="Path 5" transform="translate(-655.231 1828.073) rotate(180)" fill="none">
+          <path d="M9.884,0l9.884,10.073H0Z" stroke="none"/>
+          <path d="M 9.88446044921875 1.427773475646973 L 2.382303237915039 9.0731201171875 L 17.38661766052246 9.0731201171875 L 9.88446044921875 1.427773475646973 M 9.88446044921875 0 L 19.7689208984375 10.0731201171875 L 0 10.0731201171875 L 9.88446044921875 0 Z" stroke="none" fill="#900d0d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
